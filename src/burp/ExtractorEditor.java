@@ -52,7 +52,7 @@ public class ExtractorEditor {
 
 		// Create tool selection
 		toolSelectors = new HashMap<Integer, ToolMenuItem>();
-		JButton toolSelectionBar = new JButton("Select in-scope tools");
+		JButton toolSelectionBar = new JButton("Select in-scope tools of Burp");
 		JPopupMenu toolSelection = new JPopupMenu();
 		this.allTools = new ToolMenuItem("All", true);
 		toolSelection.add(this.allTools);
